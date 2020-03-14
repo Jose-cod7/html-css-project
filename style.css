@@ -1,0 +1,11 @@
+body {
+    background-color: rgba(60, 186, 236, 0.336);
+    line-height: 1.2;
+    margin: 1.5rem;
+}
+
+header {
+    font-size: 10rem;
+    text-align: center;
+    font: bold;
+}
