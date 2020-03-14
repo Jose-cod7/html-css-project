@@ -3,9 +3,10 @@ body {
     line-height: 1.2;
     margin: 1.5rem;
 }
-
 header {
     font-size: 10rem;
     text-align: center;
     font: bold;
 }
+header h2 {
+    font-size: 25px; }
