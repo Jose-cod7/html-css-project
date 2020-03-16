@@ -21,7 +21,8 @@ h2 {
     color: rgb(218, 214, 214);
     font-size: 30px;
  }
- h1:first-child {
+ #standout:first-child {
+     color: green;
      background-color: rgb(238, 24, 24);
  }
  img {
@@ -41,7 +42,7 @@ footer {
 }
 a {
     font-size: 1.2rem;
-    font: bold;
+    font-weight: bold;
     color: rgb(16, 75, 202);
     text-decoration: none;
 }
