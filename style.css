@@ -15,7 +15,36 @@ header {
 }
 #header {
     background-image: url(https://i.postimg.cc/MTT7Rswk/swimmingpool.jpg);
+    width: 100%;
 }
+.side-bar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+    position: fixed;
+    right: 23px;
+    height: 100%;
+    overflow: auto;
+}
+
+   .side-bar .active {
+       color:white;
+       font: bold; 
+       background-color: rgb(4, 12, 136);
+   }
+       .side-bar a {
+    display: block;
+    color: black;
+    line-height: 2.5;
+    padding: 10px;
+}
+
+.container {
+    margin-right: 200px;
+    padding: 1px 16px;
+}
+
 h2 {
     margin-top: 5rem;
     color: rgb(218, 214, 214);
@@ -39,7 +68,7 @@ h2 {
      text-align: justify;
  }
  img {
-     max-width: 30%;
+     max-width: 100%;
      
  }
  h1 {
@@ -52,6 +81,7 @@ footer {
     font-size: 1.5rem;
     border-radius: 5px;
     padding: 20px;
+    vertical-align: middle;
 }
 a {
     font-size: 1.2rem;
