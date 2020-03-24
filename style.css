@@ -17,9 +17,7 @@ header {
 }
 
 .side-bar {
-    margin: 0 0 20px 20px;
     padding: 0;
-    width: 200px;
     background-color: white;
     overflow: auto;
     flex-shrink: 0;
@@ -58,8 +56,6 @@ div article {
     border: 3px;
     padding: 15px;
     background-color: rgba(235, 235, 235, 0.87);
-    margin: 2 2 2 2;
-    text-align: justify;
 }
 
 div h1:first-child {
@@ -71,8 +67,6 @@ div h1:first-child {
     background-color: rgb(10, 2, 126);
     border-radius: 4px;
     padding: 10px;
-    margin-top: 100px;
-    text-align: justify;
 }
 
 a:first-child {
@@ -126,7 +120,6 @@ span {
 
 .side-bar {
     display: flex;
-    flex-direction: row;
 }
 
 .articles {
@@ -135,11 +128,7 @@ span {
     flex-wrap: wrap;
 }
 
-article {
-    width: 100%;
-}
-
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
     .container {
         flex-direction: row;
         justify-content: space-around;
@@ -154,6 +143,12 @@ article {
 
 @media screen and (min-width: 900px) {
     article {
-        width: 32%;
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1040px) {
+    article {
+        width: 46%;
     }
 }
