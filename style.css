@@ -1,139 +1,159 @@
-        * {
-            font-family: sans-serif;
-        }
-        
-        body {
-            background-color: rgba(156, 227, 255, 0.336);
-            line-height: 1.2;
-            margin: 1.5rem;
-        }
-        
-        header {
-            color: rgb(255, 255, 255);
-            font-size: 8rem;
-            text-align: center;
-            font-weight: bold;
-            background-image: url(https://i.postimg.cc/MTT7Rswk/swimmingpool.jpg);
-        }
-        
-        .side-bar {
-            margin: 0 0 20px 20px;
-            padding: 0;
-            width: 200px;
-            background-color: white;
-            overflow: auto;
-            flex-shrink: 0;
-        }
-        
-        .side-bar a {
-            display: block;
-            color: black;
-            line-height: 2.5;
-            padding: 10px;
-            text-decoration: none;
-        }
-        
-        .side-bar a.active {
-            color: white;
-            font: bold;
-            background-color: rgb(4, 12, 136);
-        }
-        
-        .side-bar a:hover:not(.active) {
-            background-color: rgb(150, 150, 150);
-            color: white;
-        }
-        
-        .container {
-            padding: 2px 2px 2px 2px;
-        }
-        
-        h2 {
-            margin-top: 5rem;
-            color: rgb(218, 214, 214);
-            font-size: 30px;
-        }
-        
-        div article {
-            border: 3px;
-            padding: 15px;
-            background-color: rgba(235, 235, 235, 0.87);
-            margin: 2 2 2 2;
-            text-align: justify;
-        }
-        
-        div h1:first-child {
-            text-decoration: underline white;
-        }
-        
-        .articles:first-child article:first-child {
-            color: rgb(255, 255, 255);
-            background-color: rgb(10, 2, 126);
-            border-radius: 4px;
-            padding: 10px;
-            margin-top: 100px;
-            text-align: justify;
-        }
-        
-        a:first-child {
-            color: rgb(95, 169, 230);
-        }
-        
-        p {
-            text-align: justify;
-        }
-        
-        .competition {
-            max-width: 100%;
-        }
-        
-        h3 {
-            text-decoration: underline blue;
-        }
-        
-        footer {
-            background-color: rgb(191, 200, 197);
-            margin-top: 60px;
-            font-size: 1.5rem;
-            border-radius: 5px;
-            padding: 20px;
-        }
-        
-        a {
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: rgb(16, 75, 202);
-            text-decoration: none;
-        }
-        
-        span {
-            margin-top: 0px;
-            display: flex;
-            justify-content: flex-end;
-        }
-        
-        #linkfooter {
-            text-decoration: none;
-            color: rgb(255, 255, 255);
-            font: bold;
-            font-size: 2rem;
-        }
-        
-        .articles {
-            display: flex;
-            flex-direction: row;
-            align-items: baseline;
-        }
-        
-        .container {
-            display: flex;
-            flex-direction: row-reverse;
-            justify-content: space-around;
-        }
-        
-        @media screen and (min-width: 400px) {
-            .side-bar {
-                display: flex;
-                flex-direction: column;
-            }
-        }
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(156, 227, 255, 0.336);
+    line-height: 1.2;
+    margin: 1.5rem;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    font-size: 8rem;
+    text-align: center;
+    font-weight: bold;
+    background-image: url(https://i.postimg.cc/MTT7Rswk/swimmingpool.jpg);
+}
+
+.side-bar {
+    margin: 0 0 20px 20px;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+    overflow: auto;
+    flex-shrink: 0;
+}
+
+.side-bar a {
+    display: block;
+    color: black;
+    line-height: 2.5;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.side-bar a.active {
+    color: white;
+    font: bold;
+    background-color: rgb(4, 12, 136);
+}
+
+.side-bar a:hover:not(.active) {
+    background-color: rgb(150, 150, 150);
+    color: white;
+}
+
+.container {
+    padding: 2px 2px 2px 2px;
+}
+
+h2 {
+    margin-top: 5rem;
+    color: rgb(218, 214, 214);
+    font-size: 30px;
+}
+
+div article {
+    border: 3px;
+    padding: 15px;
+    background-color: rgba(235, 235, 235, 0.87);
+    margin: 2 2 2 2;
+    text-align: justify;
+}
+
+div h1:first-child {
+    text-decoration: underline white;
+}
+
+.articles:first-child article:first-child {
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 2, 126);
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 100px;
+    text-align: justify;
+}
+
+a:first-child {
+    color: rgb(95, 169, 230);
+}
+
+p {
+    text-align: justify;
+}
+
+.competition {
+    max-width: 100%;
+}
+
+h3 {
+    text-decoration: underline blue;
+}
+
+footer {
+    background-color: rgb(191, 200, 197);
+    margin-top: 60px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(16, 75, 202);
+    text-decoration: none;
+}
+
+span {
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#linkfooter {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font: bold;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .side-bar {
+        flex-direction: column;
+    }
+    .articles {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    article {
+        width: 32%;
+    }
+}
